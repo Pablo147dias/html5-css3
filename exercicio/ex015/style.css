@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-color: #121212;
+    
+}
+h1{
+    color: #FF004E;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    color: #FF004E;
+    margin-left: 15px;
+    font-size: 35px;
+}
+p{
+    color: aliceblue;
+    text-align: justify;
+    font-size: 20px;
+}
