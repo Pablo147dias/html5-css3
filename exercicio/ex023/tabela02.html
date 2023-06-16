@@ -6,6 +6,7 @@
     <title>Tabelas</title>
     <style>
         table{
+            position: relative;
             width: 400px;
             border-collapse: collapse;
         }
@@ -16,12 +17,20 @@
             background-color: lightgray;
             border: 1px solid black;
         }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(121, 121, 121);
+        }
         td, th{
             border: 1px solid black;
             padding: 10px;
         }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
         thead, tfoot{
-            background-color: darkgray;
+            background-color: rgb(121, 121, 121);
             color: white;
         }
         .num{
